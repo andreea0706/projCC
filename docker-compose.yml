@@ -7,8 +7,8 @@ services:
       context: .
       dockerfile: AuthService/Dockerfile
     ports:
-      - "5000:80"
-      - "5003:443"
+      - 5020:80
+      - 5023:443
 
   categotyservice:
     image: ${DOCKER_REGISTRY-}categotyservice
@@ -16,8 +16,8 @@ services:
       context: .
       dockerfile: ProiectCC/Dockerfile
     ports:
-      - "5001:80"
-      - "5004:443"
+      - 5021:80
+      - 5024:443
 
   expensesservice:
     image: ${DOCKER_REGISTRY-}expensesservice
@@ -25,5 +25,5 @@ services:
       context: .
       dockerfile: ExpensesService/Dockerfile
     ports:
-      - "5002:80"
-      - "5005:443"
+      - 5022:80
+      - 5025:443
