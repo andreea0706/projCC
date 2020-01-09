@@ -1,0 +1,15 @@
+C:\Users\andreea.ionescu\source\repos\ProiectCC\bin\Debug\appsettings.Development.json
+C:\Users\andreea.ionescu\source\repos\ProiectCC\bin\Debug\appsettings.json
+C:\Users\andreea.ionescu\source\repos\ProiectCC\bin\Debug\Properties\launchSettings.json
+C:\Users\andreea.ionescu\source\repos\ProiectCC\bin\Debug\AuthService.dll
+C:\Users\andreea.ionescu\source\repos\ProiectCC\bin\Debug\ExpensesService.dll
+C:\Users\andreea.ionescu\source\repos\ProiectCC\bin\Debug\CoreDatabase.dll
+C:\Users\andreea.ionescu\source\repos\ProiectCC\bin\Debug\CoreModels.dll
+C:\Users\andreea.ionescu\source\repos\ProiectCC\bin\Debug\ExpensesService.pdb
+C:\Users\andreea.ionescu\source\repos\ProiectCC\bin\Debug\AuthService.pdb
+C:\Users\andreea.ionescu\source\repos\ProiectCC\bin\Debug\CoreDatabase.pdb
+C:\Users\andreea.ionescu\source\repos\ProiectCC\bin\Debug\CoreModels.pdb
+C:\Users\andreea.ionescu\source\repos\ProiectCC\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+C:\Users\andreea.ionescu\source\repos\ProiectCC\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\Users\andreea.ionescu\source\repos\ProiectCC\bin\Debug\CategoriesService.dll
+C:\Users\andreea.ionescu\source\repos\ProiectCC\bin\Debug\CategoriesService.pdb

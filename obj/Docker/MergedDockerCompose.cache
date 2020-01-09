@@ -1,0 +1,40 @@
+services:
+  authservice:
+    build:
+      context: C:\Users\andreea.ionescu\source\repos\ProiectCC
+      dockerfile: AuthService/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: authservice
+    ports:
+    - published: 5000
+      target: 80
+    - target: 80
+    - published: 5003
+      target: 443
+    - target: 443
+    volumes:
+    - C:\Users\andreea.ionescu\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\andreea.ionescu\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+  categotyservice:
+    build:
+      context: C:\Users\andreea.ionescu\source\repos\ProiectCC
+      dockerfile: ProiectCC/Dockerfile
+    image: categotyservice
+    ports:
+    - published: 5001
+      target: 80
+    - published: 5004
+      target: 443
+  expensesservice:
+    build:
+      context: C:\Users\andreea.ionescu\source\repos\ProiectCC
+      dockerfile: ExpensesService/Dockerfile
+    image: expensesservice
+    ports:
+    - published: 5002
+      target: 80
+    - published: 5005
+      target: 443
+version: '3.4'

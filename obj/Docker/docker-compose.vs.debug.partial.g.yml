@@ -1,0 +1,82 @@
+version: '3.4'
+
+services:
+  authservice:
+    image: authservice:dev
+    container_name: AuthService
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "AuthService"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_authservice$
+    volumes:
+      - C:\Users\andreea.ionescu\source\repos\ProiectCC\AuthService:/app
+      - C:\Users\andreea.ionescu\source\repos\ProiectCC:/src
+      - C:\Users\andreea.ionescu\vsdbg\vs2017u5:/remote_debugger:rw
+#$nuget_volume_mapping_authservice$
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_authservice$ \"bin/Debug/netcoreapp2.2/AuthService.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+    tty: true
+  categotyservice:
+    image: categotyservice:dev
+    container_name: CategoriesService
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "CategoriesService"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_categotyservice$
+    volumes:
+      - C:\Users\andreea.ionescu\source\repos\ProiectCC\ProiectCC:/app
+      - C:\Users\andreea.ionescu\source\repos\ProiectCC:/src
+      - C:\Users\andreea.ionescu\vsdbg\vs2017u5:/remote_debugger:rw
+#$nuget_volume_mapping_categotyservice$
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_categotyservice$ \"bin/Debug/netcoreapp2.2/CategoriesService.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+    tty: true
+
+  expensesservice:
+    image: expensesservice:dev
+    container_name: ExpensesService
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "ExpensesService"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_expensesservice$
+    volumes:
+      - C:\Users\andreea.ionescu\source\repos\ProiectCC\ExpensesService:/app
+      - C:\Users\andreea.ionescu\source\repos\ProiectCC:/src
+      - C:\Users\andreea.ionescu\vsdbg\vs2017u5:/remote_debugger:rw
+#$nuget_volume_mapping_expensesservice$
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_expensesservice$ \"bin/Debug/netcoreapp2.2/ExpensesService.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+    tty: true

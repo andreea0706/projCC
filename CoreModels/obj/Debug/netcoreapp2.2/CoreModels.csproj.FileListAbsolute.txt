@@ -1,0 +1,8 @@
+C:\Users\andreea.ionescu\source\repos\ProiectCC\CoreModels\bin\Debug\netcoreapp2.2\CoreModels.deps.json
+C:\Users\andreea.ionescu\source\repos\ProiectCC\CoreModels\bin\Debug\netcoreapp2.2\CoreModels.dll
+C:\Users\andreea.ionescu\source\repos\ProiectCC\CoreModels\bin\Debug\netcoreapp2.2\CoreModels.pdb
+C:\Users\andreea.ionescu\source\repos\ProiectCC\CoreModels\obj\Debug\netcoreapp2.2\CoreModels.csprojAssemblyReference.cache
+C:\Users\andreea.ionescu\source\repos\ProiectCC\CoreModels\obj\Debug\netcoreapp2.2\CoreModels.AssemblyInfoInputs.cache
+C:\Users\andreea.ionescu\source\repos\ProiectCC\CoreModels\obj\Debug\netcoreapp2.2\CoreModels.AssemblyInfo.cs
+C:\Users\andreea.ionescu\source\repos\ProiectCC\CoreModels\obj\Debug\netcoreapp2.2\CoreModels.dll
+C:\Users\andreea.ionescu\source\repos\ProiectCC\CoreModels\obj\Debug\netcoreapp2.2\CoreModels.pdb

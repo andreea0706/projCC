@@ -1,0 +1,8 @@
+C:\Users\andreea.ionescu\source\repos\ProiectCC\CoreDatabase\bin\Debug\netcoreapp3.1\CoreDatabase.deps.json
+C:\Users\andreea.ionescu\source\repos\ProiectCC\CoreDatabase\bin\Debug\netcoreapp3.1\CoreDatabase.dll
+C:\Users\andreea.ionescu\source\repos\ProiectCC\CoreDatabase\obj\Debug\netcoreapp3.1\CoreDatabase.csprojAssemblyReference.cache
+C:\Users\andreea.ionescu\source\repos\ProiectCC\CoreDatabase\obj\Debug\netcoreapp3.1\CoreDatabase.AssemblyInfoInputs.cache
+C:\Users\andreea.ionescu\source\repos\ProiectCC\CoreDatabase\obj\Debug\netcoreapp3.1\CoreDatabase.AssemblyInfo.cs
+C:\Users\andreea.ionescu\source\repos\ProiectCC\CoreDatabase\bin\Debug\netcoreapp3.1\CoreDatabase.pdb
+C:\Users\andreea.ionescu\source\repos\ProiectCC\CoreDatabase\obj\Debug\netcoreapp3.1\CoreDatabase.dll
+C:\Users\andreea.ionescu\source\repos\ProiectCC\CoreDatabase\obj\Debug\netcoreapp3.1\CoreDatabase.pdb

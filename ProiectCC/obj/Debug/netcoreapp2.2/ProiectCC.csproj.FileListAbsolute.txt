@@ -1,0 +1,16 @@
+C:\Users\andreea.ionescu\source\repos\ProiectCC\ProiectCC\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\andreea.ionescu\source\repos\ProiectCC\ProiectCC\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\andreea.ionescu\source\repos\ProiectCC\ProiectCC\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\andreea.ionescu\source\repos\ProiectCC\ProiectCC\bin\Debug\netcoreapp2.2\ProiectCC.deps.json
+C:\Users\andreea.ionescu\source\repos\ProiectCC\ProiectCC\bin\Debug\netcoreapp2.2\ProiectCC.runtimeconfig.json
+C:\Users\andreea.ionescu\source\repos\ProiectCC\ProiectCC\bin\Debug\netcoreapp2.2\ProiectCC.runtimeconfig.dev.json
+C:\Users\andreea.ionescu\source\repos\ProiectCC\ProiectCC\bin\Debug\netcoreapp2.2\ProiectCC.dll
+C:\Users\andreea.ionescu\source\repos\ProiectCC\ProiectCC\obj\Debug\netcoreapp2.2\ProiectCC.csprojAssemblyReference.cache
+C:\Users\andreea.ionescu\source\repos\ProiectCC\ProiectCC\obj\Debug\netcoreapp2.2\ProiectCC.RazorAssemblyInfo.cache
+C:\Users\andreea.ionescu\source\repos\ProiectCC\ProiectCC\obj\Debug\netcoreapp2.2\ProiectCC.RazorAssemblyInfo.cs
+C:\Users\andreea.ionescu\source\repos\ProiectCC\ProiectCC\obj\Debug\netcoreapp2.2\ProiectCC.AssemblyInfoInputs.cache
+C:\Users\andreea.ionescu\source\repos\ProiectCC\ProiectCC\obj\Debug\netcoreapp2.2\ProiectCC.AssemblyInfo.cs
+C:\Users\andreea.ionescu\source\repos\ProiectCC\ProiectCC\obj\Debug\netcoreapp2.2\ProiectCC.RazorTargetAssemblyInfo.cache
+C:\Users\andreea.ionescu\source\repos\ProiectCC\ProiectCC\bin\Debug\netcoreapp2.2\ProiectCC.pdb
+C:\Users\andreea.ionescu\source\repos\ProiectCC\ProiectCC\obj\Debug\netcoreapp2.2\ProiectCC.dll
+C:\Users\andreea.ionescu\source\repos\ProiectCC\ProiectCC\obj\Debug\netcoreapp2.2\ProiectCC.pdb
