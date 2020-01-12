@@ -12,11 +12,9 @@ C:\Users\andreea.ionescu\source\repos\ProiectCC\ExpensesService\obj\Debug\netcor
 C:\Users\andreea.ionescu\source\repos\ProiectCC\ExpensesService\obj\Debug\netcoreapp2.2\ExpensesService.RazorAssemblyInfo.cs
 C:\Users\andreea.ionescu\source\repos\ProiectCC\ExpensesService\obj\Debug\netcoreapp2.2\ExpensesService.RazorTargetAssemblyInfo.cache
 C:\Users\andreea.ionescu\source\repos\ProiectCC\ExpensesService\bin\Debug\netcoreapp2.2\ExpensesService.pdb
-C:\Users\andreea.ionescu\source\repos\ProiectCC\ExpensesService\bin\Debug\netcoreapp2.2\CategoriesService.dll
 C:\Users\andreea.ionescu\source\repos\ProiectCC\ExpensesService\bin\Debug\netcoreapp2.2\CoreDatabase.dll
 C:\Users\andreea.ionescu\source\repos\ProiectCC\ExpensesService\bin\Debug\netcoreapp2.2\CoreModels.dll
 C:\Users\andreea.ionescu\source\repos\ProiectCC\ExpensesService\bin\Debug\netcoreapp2.2\CoreDatabase.pdb
-C:\Users\andreea.ionescu\source\repos\ProiectCC\ExpensesService\bin\Debug\netcoreapp2.2\CategoriesService.pdb
 C:\Users\andreea.ionescu\source\repos\ProiectCC\ExpensesService\bin\Debug\netcoreapp2.2\CoreModels.pdb
 C:\Users\andreea.ionescu\source\repos\ProiectCC\ExpensesService\obj\Debug\netcoreapp2.2\ExpensesService.csproj.CopyComplete
 C:\Users\andreea.ionescu\source\repos\ProiectCC\ExpensesService\obj\Debug\netcoreapp2.2\ExpensesService.dll

@@ -47,6 +47,7 @@ namespace CoreDatabase
 
         
         public DbSet<CategoryModel> Categories { get; set; }
+        public DbSet<ExpenseModel> Expenses { get; set; }
 
     }
 }

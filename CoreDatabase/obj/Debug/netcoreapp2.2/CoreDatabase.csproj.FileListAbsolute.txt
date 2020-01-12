@@ -9,3 +9,5 @@ C:\Users\andreea.ionescu\source\repos\ProiectCC\CoreDatabase\obj\Debug\netcoreap
 C:\Users\andreea.ionescu\source\repos\ProiectCC\CoreDatabase\bin\Debug\netcoreapp2.2\CoreModels.dll
 C:\Users\andreea.ionescu\source\repos\ProiectCC\CoreDatabase\bin\Debug\netcoreapp2.2\CoreModels.pdb
 C:\Users\andreea.ionescu\source\repos\ProiectCC\CoreDatabase\obj\Debug\netcoreapp2.2\CoreDatabase.csproj.CopyComplete
+C:\Users\andreea.ionescu\source\repos\ProiectCC\CoreDatabase\bin\Debug\netcoreapp2.2\CoreDatabase.runtimeconfig.json
+C:\Users\andreea.ionescu\source\repos\ProiectCC\CoreDatabase\bin\Debug\netcoreapp2.2\CoreDatabase.runtimeconfig.dev.json

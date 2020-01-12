@@ -21,7 +21,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CoreDatabase\CoreDatabase.csproj" />
-    <ProjectReference Include="..\ProiectCC\CategoriesService.csproj" />
   </ItemGroup>
 
 
