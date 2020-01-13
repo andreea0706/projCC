@@ -9,6 +9,9 @@ services:
     ports:
       - 5020:80
       - 5023:443
+    networks:
+      default-network:
+        ipv4_address: 172.25.2.7
 
   categotyservice:
     image: ${DOCKER_REGISTRY-}categotyservice
@@ -18,6 +21,9 @@ services:
     ports:
       - 5021:80
       - 5024:443
+    networks:
+      default-network:
+        ipv4_address: 172.25.2.5
 
   expensesservice:
     image: ${DOCKER_REGISTRY-}expensesservice
@@ -27,3 +33,27 @@ services:
     ports:
       - 5022:80
       - 5025:443
+    networks:
+      default-network:
+        ipv4_address: 172.25.2.4
+  db:
+    image: mysql
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    ports:
+      - 3306:3306
+    environment: 
+      MYSQL_ROOT_PASSWORD: root
+    networks:
+      default-network:
+        ipv4_address: 172.25.2.6
+
+networks:
+  default-network:
+    driver: bridge
+    driver_opts:
+      com.docker.network.enable_ipv6: "false"
+    ipam:
+      driver: default
+      config:
+      - subnet: 172.25.2.0/24

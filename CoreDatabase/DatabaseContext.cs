@@ -19,7 +19,9 @@ namespace CoreDatabase
 
         private static string GetConnectionString()
         {
-            return "server=contrall.mysql.database.azure.com;port=3306;uid=BFY@contrall;password=ContrAll2018;database=andiCC1;charset=utf8;";
+            return "server=contrall.mysql.database.azure.com;port=3306;uid=BFY@contrall;password=ContrAll2018;database=andiCC3;charset=utf8;";
+            //return "server=172.25.2.6;port=3306;uid=root;password=root;database=andiCC;charset=utf8;";
+
         }
 
 

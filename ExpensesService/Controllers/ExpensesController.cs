@@ -25,7 +25,7 @@ namespace ExpensesService.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ExpenseModel>>> GetExpenses()
         {
-            return await _context.Expenses.ToListAsync();
+            return await _context.Expenses.Include(e => e.Category).ToListAsync();
         }
 
         // GET: api/Expenses/5

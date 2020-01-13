@@ -1,0 +1,39 @@
+<div class="title title-border">
+    <h4>All Expenses</h4>
+  </div>
+  <div class="table-responsive">
+    <table class="table table-striped table-md">
+      <thead class="blotter-table-header">
+        <tr>
+          <th>
+            <span>Name&nbsp;</span>
+          </th>
+          <th>
+            <span>Value&nbsp;</span>
+          </th>
+          <th>
+            <span>Description&nbsp;</span>
+          </th>
+          <th>
+            <span>Category&nbsp;</span>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let expense of expenses | async">
+          <td>
+            {{ expense.name }}
+          </td>
+          <td>
+            {{ expense.value }}
+          </td>
+          <td>
+            {{ expense.description }}
+          </td>
+          <td>
+            {{ expense.category.name }}
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>

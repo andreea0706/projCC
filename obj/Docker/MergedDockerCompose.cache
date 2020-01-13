@@ -1,9 +1,21 @@
+networks:
+  default-network:
+    driver: bridge
+    driver_opts:
+      com.docker.network.enable_ipv6: "false"
+    ipam:
+      config:
+      - subnet: 172.25.2.0/24
+      driver: default
 services:
   authservice:
     build:
       context: C:\Users\andreea.ionescu\source\repos\ProiectCC
       dockerfile: AuthService/Dockerfile
     image: authservice
+    networks:
+      default-network:
+        ipv4_address: 172.25.2.7
     ports:
     - published: 5020
       target: 80
@@ -14,16 +26,34 @@ services:
       context: C:\Users\andreea.ionescu\source\repos\ProiectCC
       dockerfile: ProiectCC/Dockerfile
     image: categotyservice
+    networks:
+      default-network:
+        ipv4_address: 172.25.2.5
     ports:
     - published: 5021
       target: 80
     - published: 5024
       target: 443
+  db:
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    image: mysql
+    networks:
+      default-network:
+        ipv4_address: 172.25.2.6
+    ports:
+    - published: 3306
+      target: 3306
+    restart: always
   expensesservice:
     build:
       context: C:\Users\andreea.ionescu\source\repos\ProiectCC
       dockerfile: ExpensesService/Dockerfile
     image: expensesservice
+    networks:
+      default-network:
+        ipv4_address: 172.25.2.4
     ports:
     - published: 5022
       target: 80

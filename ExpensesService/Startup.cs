@@ -11,6 +11,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using CoreDatabase;
+using Newtonsoft.Json.Serialization;
+using Newtonsoft.Json;
 
 namespace ExpensesService
 {
@@ -70,7 +72,10 @@ namespace ExpensesService
             //        };
             //    });
 
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2).AddJsonOptions(options => {
+                options.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
+                options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
+            });
 
             // services.Configure<Models.MySettingsModel>(Configuration.GetSection("MySettings"));
         }
